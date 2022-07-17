@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tz-mp3/static/css/main.8708bae6.css",
+    "main.js": "/tz-mp3/static/js/main.da6c375a.js",
+    "static/js/787.27f4681d.chunk.js": "/tz-mp3/static/js/787.27f4681d.chunk.js",
+    "index.html": "/tz-mp3/index.html",
+    "main.8708bae6.css.map": "/tz-mp3/static/css/main.8708bae6.css.map",
+    "main.da6c375a.js.map": "/tz-mp3/static/js/main.da6c375a.js.map",
+    "787.27f4681d.chunk.js.map": "/tz-mp3/static/js/787.27f4681d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8708bae6.css",
+    "static/js/main.da6c375a.js"
+  ]
+}
