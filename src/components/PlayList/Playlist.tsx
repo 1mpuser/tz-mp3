@@ -1,4 +1,4 @@
-import {FC} from 'react'
+import {FC, Key} from 'react'
 import { ISong } from '../../types/types';
 import classes from './Playlist.module.css'
 import SongItem from '../SongItem/SongItem';
@@ -14,7 +14,7 @@ const Playlist : FC/*<PlayListProps> */= () => {
     return (
        <div className={classes.main}>
             <ul className={classes.playlist}>
-                {songList.map((item, i) => <SongItem song={item} index = {i} key={i} />) }
+                {songList.map((item: ISong, i: Key | null | undefined) => <SongItem song={item} index = {i} key={i} />) }
             </ul>
        </div> 
     );

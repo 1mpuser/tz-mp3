@@ -16,7 +16,7 @@ const songReducer = (state : ISongState = initialState, action : ISongAction) =>
         case Actions.SET_SONGS_ARRAY:
           return {
             ...state,
-            songs: action.data,
+            songList: action.data,
           }
         case Actions.SET_CURRENT_SONG:
           return {

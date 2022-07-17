@@ -6,6 +6,7 @@ export const songArr : ISong[] = [
             albumTitle: "Mussorgsky's Pictures at an Exhibition",
             url:
               'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/MusOpen/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/Skidmore_College_Orchestra_-_01_-_Promenade_Allegro_giusto_nel_modo_russico_senza_allegrezza_ma.mp3',
+            order : 1
         },
         {
           title: 'I. Gnomus Vivo',
@@ -13,6 +14,7 @@ export const songArr : ISong[] = [
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
             'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/MusOpen/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/Skidmore_College_Orchestra_-_02_-_I_Gnomus_Vivo.mp3',
+            order : 2
         },
         {
           title: 'Promenade Moderato comodo e con delicatezza',
@@ -20,6 +22,7 @@ export const songArr : ISong[] = [
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
             'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/MusOpen/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/Skidmore_College_Orchestra_-_03_-_Promenade_Moderato_comodo_e_con_delicatezza.mp3',
+            order : 3
         },
         {
           title: 'II. Il vecchio castello Andante',
@@ -27,10 +30,12 @@ export const songArr : ISong[] = [
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
             'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/MusOpen/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/Skidmore_College_Orchestra_-_04_-_II_Il_vecchio_castello_Andante.mp3',
+            order : 4
         },
         {
           title: 'Promenade Moderato non tanto pesante',
           artistName: 'Skidmore College Orchestra',
+          order : 5,
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
             'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/MusOpen/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/Skidmore_College_Orchestra_-_05_-_Promenade_Moderato_non_tanto_pesante.mp3',
@@ -38,12 +43,14 @@ export const songArr : ISong[] = [
         {
           title: 'III. Tuileries Allegretto non troppo capriccioso',
           artistName: 'Skidmore College Orchestra',
+          order : 6,
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
             'https://files.freemusicarchive.org/storage-freemusicarchive-org/music/MusOpen/Skidmore_College_Orchestra/Mussorgskys_Pictures_at_an_Exhibition/Skidmore_College_Orchestra_-_06_-_III_Tuileries_Allegretto_non_troppo_capriccioso.mp3',
         },
         {
           title: 'IV. Bydlo Sempre moderato pesante',
+          order : 7,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -51,6 +58,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'Promenade Tranquillo',
+          order : 8,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -58,6 +66,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'V. Ballet des poussins dans leurs coques Scherzino. Vivo leggiero',
+          order : 9,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -65,6 +74,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'VI. Samuel Goldenberg and Schmuyle Andante',
+          order : 10,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -72,6 +82,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'VII. Limoges. Le March? Allegretto vivo sempre scherzando',
+          order : 11,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -79,6 +90,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'VIII. Catacombae. Sepulcrum romanum Largo',
+          order : 12,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -86,6 +98,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'Cum mortuis in lingua mortua Andante non troppo con lamento',
+          order : 13,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -93,6 +106,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'IX. La Cabane sur des pattes de poule Allegro con brio feroce An',
+          order : 14,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:
@@ -100,6 +114,7 @@ export const songArr : ISong[] = [
         },
         {
           title: 'X. La grande porte de Kiev Allegro alla breve. Maestoso. Con gran',
+          order : 15,
           artistName: 'Skidmore College Orchestra',
           albumTitle: "Mussorgsky's Pictures at an Exhibition",
           url:

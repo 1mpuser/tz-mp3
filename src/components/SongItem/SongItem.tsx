@@ -9,7 +9,7 @@ import {useDispatch} from 'react-redux'
 // import {}
 interface SongItemProps{
     song : ISong,
-    index : number,
+    index : any,
 }
 
 const SongItem : FC <SongItemProps> = ({song, index, ...props}) => {

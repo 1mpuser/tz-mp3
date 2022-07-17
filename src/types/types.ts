@@ -3,7 +3,9 @@ export interface ISong {
     title : string,
     artistName : string,
     albumTitle : string, 
-    url : string
+    url : string,
+    length? : number,
+    order? : number,
 }
 export interface ISongState {
     currentSong : number,
