@@ -1,0 +1,29 @@
+.songImg{
+    height: 65px;
+    width: 65px;
+    background:url('https://freemusicarchive.org/image?file=images%2Falbums%2FSkidmore_College_Orchestra_-_Mussorgskys_Pictures_at_an_Exhibition_-_2009113013701972.jpg&width=290&height=290&type=image');
+    background-size: contain;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.songItem {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.songName{
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.songAuthors{
+    padding: 0 10px;
+    font-weight: normal;
+    color: #555;
+    font-size: 0.875rem;
+}
+.selected {
+    background: white;
+}

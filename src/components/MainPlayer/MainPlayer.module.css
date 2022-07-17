@@ -1,0 +1,113 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    background: #3a3a3a;
+    color: white;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.volumeDiv{
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+    width: 25px;
+    transition: all 500ms;
+    position: absolute;
+    left: 0;
+}
+.volumeDiv:hover {
+    width: 90px;
+}
+.spanVolume{
+    padding: 10px;
+}
+.musicControls {
+    margin-left: 90px;
+    min-width: 120px;
+  }
+  
+.musicControls span {
+    cursor: pointer;
+}
+  
+.musicControls span:hover {
+    color: #2A6586;
+}
+.hide{
+    display: none;
+}
+.prevButton{
+    background: #4aa9de;
+    border-radius: 10px 0 0px 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-right: -5px;
+    z-index: 1;
+}
+.playButton {
+    background: #4AA9DE;
+    padding: 15px 18px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 3;
+}
+  
+.playButton:active {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+  
+.playButton:hover {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+.nextButton{
+    background: #4aa9de;
+    border-radius: 0px 10px 10px 0px;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-left: -5px;
+    z-index: 1;
+}
+.progressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    flex: 1;
+}
+.songMeta{
+    width: 25vw;
+}
+.songTitle{
+    display: block;
+    font-size: 1.125em;
+    font-weight: 600;
+}
+.songArtistName{
+    font-size: 0.8em;
+}
+.currentTime, .totalTime {
+    width: 35px;
+    margin: 0 10px;
+}
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+  }
+  
+.options span {
+    cursor: pointer;
+}
+  
+.options span:hover {
+    color: #2A6586;
+}
+  
+.options span.active {
+    color: rgb(32, 77, 104);
+}
