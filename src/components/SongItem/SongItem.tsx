@@ -6,7 +6,6 @@ import classNames from 'classnames'
 import { setCurrentSong } from '../../store/actionCreators/actionCreators';
 import {useDispatch} from 'react-redux'
 
-// import {}
 interface SongItemProps{
     song : ISong,
     index : any,

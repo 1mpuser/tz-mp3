@@ -1,31 +1,9 @@
-import {FC, useState, useMemo, useEffect} from 'react'
+import { useState, useEffect} from 'react'
 import classes from './PlaylistDescription.module.css';
-import Select from '../components/select/select'
 import { useTypedSelector } from '../hooks/useTypedSelector';
 import { useDispatch } from 'react-redux';
 import { setSongArr } from '../store/actionCreators/actionCreators';
 import {nanoid} from 'nanoid'
-// interface PlaylistDescriptionProps{
-//     img : string
-// }
-// interface IOption{
-//     title : string,
-//     value : string
-// }
-function getObjectData( object, path ){
-    let dataParams = path.split('.');
-
-    if( ! dataParams.length ){
-        return object;
-    }
-
-    let ret = object[dataParams[0]];
-    for( let i = 1; i < dataParams.length; i++ ){
-        ret = ret[dataParams[i]];
-    }
-
-    return ret;
-}
 
 const PlaylistDescription  = ({img}) => {
     const {songList} = useTypedSelector(state => state.song);
@@ -56,12 +34,6 @@ const PlaylistDescription  = ({img}) => {
         const neededObj = options[neededIndex]
         const arr = [...songList];
         
-        console.log(neededObj.value)
-
-        if (neededObj.value != 'order' && neededObj.value != 'length') {
-            arr.sort((a, b) => getObjectData(a, neededObj.value).localeCompare(getObjectData(b, neededObj.value)))
-            console.log(arr)
-        }
         if (neededObj.value === 'title') {
             arr.sort((a,b) =>a.title.localeCompare(b.title))
             dispatch(setSongArr(arr))
