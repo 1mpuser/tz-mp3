@@ -1,13 +1,28 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 
 [Deploy page is here](https://1mpuser.github.io/tz-mp3/)
 
 Here is mp3 player with current playlist
 
 In this project we could add any types of sort in terms of using ISong interface (we could sort on length, album, artist or etc)
+
+
+
+TZ-description: 
+
+Разработать mp3 плейер с притным интерфейсом. 
+
+Требования к плееру: 
+
+•	Заранее загруженный плейлист
+•	Возможность сортировки плейлиста
+•	Перемотка по времени
+•	Кнопки предыдущая/пауза/след
+•	Отображение timeline
+
+
+Деплойинг на хостинг - gh-pages
 
 
 
